@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    line-height: 40px;
+    background: hotpink;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+fieldset{
+    border-radius: 10px;
+}
+
+.container{
+    background: pink;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 10px 5px 5px red;
+}
+
+input, select{
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+button{
+    outline: none;
+    color: white;
+    background: hotpink;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    position: relative;
+    top: -5px;
+}
+
+.left{
+    text-align: left;
+}
+
+@media screen and (min-width: 800px){
+    .container{
+        width: 70%;
+    }
+    .left{
+        margin-left: 40%;
+    }
+}
