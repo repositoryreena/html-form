@@ -5,7 +5,7 @@ body{
     flex-direction: column;
     height: 100vh;
     line-height: 40px;
-    background: hotpink;
+    background: linear-gradient(to left, pink, hotpink);
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
 }
@@ -23,7 +23,7 @@ fieldset{
     box-shadow: 10px 5px 5px red;
 }
 
-input, select{
+.input, select{
     border-radius: 5px;
     padding: 5px;
     width: 300px;
@@ -56,6 +56,6 @@ button:hover{
         width: 70%;
     }
     .left{
-        margin-left: 40%;
+        margin-left: 1%;
     }
 }
